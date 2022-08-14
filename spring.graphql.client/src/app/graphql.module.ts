@@ -4,7 +4,7 @@ import {ApolloClientOptions, InMemoryCache} from '@apollo/client/core';
 import {HttpLink} from 'apollo-angular/http';
 
 
-const uri = 'http://localhost:5000/swapi-graphql/api/';
+const uri = 'http://localhost:8101/swapi-graphql/api/';
 const typeDefs = gql`
   type Query {
     people(page : String) : Response
