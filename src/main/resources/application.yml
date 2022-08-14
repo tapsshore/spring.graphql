@@ -1,0 +1,9 @@
+server:
+  port: 5000
+graphiql:
+  mapping: /api-ui
+graphql:
+  servlet:
+    mapping: /swapi-graphql/api/
+swapi:
+  url: https://swapi.dev/api/people/
