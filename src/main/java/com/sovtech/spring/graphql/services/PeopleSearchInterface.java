@@ -4,7 +4,7 @@ import com.sovtech.spring.graphql.utils.PeopleResponse;
 
 public interface PeopleSearchInterface {
 
-  PeopleResponse getPeople(String page);
+  PeopleResponse getAllPeople(String page);
 
-  PeopleResponse searchByName(String name);
+  PeopleResponse searchPeopleByName(String name);
 }
