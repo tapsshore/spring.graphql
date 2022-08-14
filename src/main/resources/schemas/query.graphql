@@ -1,0 +1,19 @@
+type Query {
+    people(page : String) : Response
+    search(name : String) : Response
+}
+
+type Response {
+    count : Long
+    next : String
+    previous : String
+    results: [People];
+}
+
+type People {
+     name : String
+     height : String
+     mass : String
+     gender : String
+     homeworld : String
+}

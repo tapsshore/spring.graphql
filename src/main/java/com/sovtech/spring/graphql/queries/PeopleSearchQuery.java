@@ -13,10 +13,11 @@ public class PeopleSearchQuery {
     this.peopleSearchInterface = peopleSearchInterface;
   }
 
-  public PeopleResponse peopleResponse(String page){
+  public PeopleResponse peopleResponse(String page) {
     return peopleSearchInterface.getAllPeople(page);
   }
-  public PeopleResponse searchPeople(String name){
+
+  public PeopleResponse searchPeople(String name) {
     return peopleSearchInterface.searchPeopleByName(name);
   }
 
