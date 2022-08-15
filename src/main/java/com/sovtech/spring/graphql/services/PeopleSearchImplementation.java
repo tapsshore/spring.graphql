@@ -4,8 +4,10 @@ import com.sovtech.spring.graphql.utils.PeopleResponse;
 import com.sovtech.spring.graphql.utils.Query;
 import com.sovtech.spring.graphql.utils.Utility;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+@Service
 public class PeopleSearchImplementation implements PeopleSearchInterface {
 
   @Value("${swapi.url}")
