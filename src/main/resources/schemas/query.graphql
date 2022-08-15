@@ -4,10 +4,10 @@ type Query {
 }
 
 type Response {
-    count : Long
+    count : Int
     next : String
     previous : String
-    results: [People];
+    results: [People]
 }
 
 type People {
